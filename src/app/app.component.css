@@ -1,0 +1,29 @@
+.login-shader {
+    width: 100vw;
+    height: calc(100vh - 200px);
+    padding-top: 200px;
+    background: lightskyblue;
+}
+
+.login-card {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.login-form {
+    width: 100%;
+    text-align: center;
+}
+
+.login-form md-form-field {
+    width: 90%;
+}
+
+.input-warning {
+    color: red;
+    font-size: 10px;
+}
+
+.login-button {
+    width: 100%;
+}
