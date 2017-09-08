@@ -4,4 +4,31 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "PT Sans", "Arial", sans-serif;
+}
+  
+.hex {
+cursor: pointer;
+fill-opacity: 0.4;
+stroke: #000;
+stroke-width: 1;
+}
+
+#color-fill .hex {
+fill: #ffff00;
+}
+
+.hex:hover {
+fill-opacity: 1;
+stroke: #ff0000;
+stroke-width: 5;
+transform: scale(1.1);
+-webkit-transform: scale(1.1);
+}
+
+.hex {
+transition: transform, fill-opacity, stroke-width;
+-webkit-transition: transform, fill-opacity, stroke-width;
+transition-duration: 1s;
+-webkit-transition-duration: 1s;
 }
