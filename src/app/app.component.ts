@@ -31,6 +31,39 @@ export class AppComponent {
 
     // Do login
 
+  //   import {Component} from '@angular/core';
+  //   import {FormControl, Validators} from '@angular/forms';
+    
+  //   const EMAIL_REGEX = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    
+  //   /**
+  //    * @title Input Errors
+  //    */
+  //   @Component({
+  //     selector: 'input-errors-example',
+  //     templateUrl: 'input-errors-example.html',
+  //     styleUrls: ['input-errors-example.css'],
+  //   })
+  //   export class InputErrorsExample {
+    
+  //     emailFormControl = new FormControl('', [
+  //       Validators.required,
+  //       Validators.pattern(EMAIL_REGEX)]);
+    
+  //   }
+
+  //   <form class="example-form">
+  //   <md-form-field class="example-full-width">
+  //     <input mdInput placeholder="Email" [formControl]="emailFormControl">
+  //     <md-error *ngIf="emailFormControl.hasError('pattern')">
+  //       Please enter a valid email address
+  //     </md-error>
+  //     <md-error *ngIf="emailFormControl.hasError('required')">
+  //       Email is <strong>required</strong>
+  //     </md-error>
+  //   </md-form-field>
+  // </form>
+
   }
 
   // Clears warnings from both input fields
