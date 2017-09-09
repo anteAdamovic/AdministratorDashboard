@@ -1,0 +1,32 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    float: left;
+    background: #032d41;
+    position: fixed;
+    top: 0;
+}
+
+.active * {
+    color: #00c3c2 !important;
+}
+
+.sidebar * {
+    color: #6c818c;
+}
+
+.sidebar md-list-item {
+    cursor: pointer;
+}
+
+.sidebar md-list-item:hover {
+    background-color: lightgray;
+}
+
+.sidebar md-list-item:hover * {
+    color: #00c3c2;
+}
+
+.router-outlet {
+    float: right;
+}

@@ -32,3 +32,33 @@ transition: transform, fill-opacity, stroke-width;
 transition-duration: 1s;
 -webkit-transition-duration: 1s;
 }
+
+/**/
+
+.spinner svg {
+    width: 100px !important;
+}
+
+.spinner path {
+    stroke: #00c3c2 !important;
+}
+
+.mat-form-field-infix {
+    padding: 0px !important;
+}
+
+.mat-form-field-wrapper {
+    padding-bottom: 0px !important;
+}
+
+.mat-input-underline {
+    display: none !important;
+}
+
+.mat-input-subscript-wrapper {
+    display: none !important;
+}
+
+.mat-input-wrapper {
+    margin-top: -5px !important;
+}

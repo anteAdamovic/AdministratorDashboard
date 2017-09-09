@@ -1,0 +1,17 @@
+<div class="sidebar">
+    <md-list>
+        <md-list-item [ngClass]="{'active': isActive('log-viewer')}">
+            <md-icon md-list-icon>library_books</md-icon>
+            <a md-line>Log Viewer</a>
+        </md-list-item>
+        <md-list-item [ngClass]="{'active': isActive('graphs')}">
+            <md-icon md-list-icon>insert_chart</md-icon>
+            <a md-line>Graphs</a>
+        </md-list-item>
+        <md-list-item [ngClass]="{'active': isActive('health-check')}">
+            <md-icon md-list-icon>add_to_queue</md-icon>
+            <a md-line>Health Check</a>
+        </md-list-item>
+    </md-list>
+</div>
+<router-outlet class="router-outlet"></router-outlet>

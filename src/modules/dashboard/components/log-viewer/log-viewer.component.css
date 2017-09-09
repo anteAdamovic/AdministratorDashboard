@@ -1,0 +1,29 @@
+.log-viewer {
+    height: 100vh;
+    margin-left: 200px;
+    margin-top: -10px;
+    padding-top: 10px;
+    background-color: #00c3c2;
+}
+
+md-card {
+    margin: 10px 10px 0px 10px;
+    padding-top: 10px;
+    max-height: calc(100vh - 180px);
+    overflow: scroll;
+}
+
+md-table {
+    min-height: calc(100vh - 255px);
+    max-height: calc(100vh - 255px);
+    padding: 10px 0px !important;
+    overflow: scroll;
+}
+
+.table-row {
+    cursor: pointer;
+}
+
+.table-row:hover {
+    background-color: rgba(0, 195, 194, 0.7);
+}
