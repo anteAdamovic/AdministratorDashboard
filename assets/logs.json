@@ -1,0 +1,2412 @@
+[
+    {
+		"@timestamp": "2017-09-07T15:00:43.345+02:00",
+		"@version": 1,
+		"message": "Starting AcquisitionServiceApplication v0.25 on hadoopdatanode1.loxodon.eu with PID 21543 (/home/hdfs/acquisition-service-booking-0.25.jar started by hdfs in /root)",
+		"logger_name": "com.loxodon.eu.acquisition.AcquisitionServiceApplication",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:00:43.559+02:00",
+		"@version": 1,
+		"message": "No active profile set, falling back to default profiles: default",
+		"logger_name": "com.loxodon.eu.acquisition.AcquisitionServiceApplication",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:00:45.251+02:00",
+		"@version": 1,
+		"message": "Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1376c05c: startup date [Thu Sep 07 15:00:45 CEST 2017]; root of context hierarchy",
+		"logger_name": "org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:01.549+02:00",
+		"@version": 1,
+		"message": "Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Dbcp; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Dbcp.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]",
+		"logger_name": "org.springframework.beans.factory.support.DefaultListableBeanFactory",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:02.194+02:00",
+		"@version": 1,
+		"message": "Multiple Spring Data modules found, entering strict repository configuration mode!",
+		"logger_name": "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:04.002+02:00",
+		"@version": 1,
+		"message": "Multiple Spring Data modules found, entering strict repository configuration mode!",
+		"logger_name": "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:04.524+02:00",
+		"@version": 1,
+		"message": "Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.loxodon.eu.acquisition.monitor.MonitorServiceDetailsRepository.",
+		"logger_name": "org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:11.027+02:00",
+		"@version": 1,
+		"message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring",
+		"logger_name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:25.690+02:00",
+		"@version": 1,
+		"message": "Tomcat initialized with port(s): 6498 (http)",
+		"logger_name": "org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:25.861+02:00",
+		"@version": 1,
+		"message": "Starting service [Tomcat]",
+		"logger_name": "org.apache.catalina.core.StandardService",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:26.001+02:00",
+		"@version": 1,
+		"message": "Starting Servlet Engine: Apache Tomcat/8.5.15",
+		"logger_name": "org.apache.catalina.core.StandardEngine",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:27.538+02:00",
+		"@version": 1,
+		"message": "Initializing Spring embedded WebApplicationContext",
+		"logger_name": "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+		"thread_name": "localhost-startStop-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:27.539+02:00",
+		"@version": 1,
+		"message": "Root WebApplicationContext: initialization completed in 42287 ms",
+		"logger_name": "org.springframework.web.context.ContextLoader",
+		"thread_name": "localhost-startStop-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:30.687+02:00",
+		"@version": 1,
+		"message": "Mapping servlet: 'dispatcherServlet' to [/]",
+		"logger_name": "org.springframework.boot.web.servlet.ServletRegistrationBean",
+		"thread_name": "localhost-startStop-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:30.806+02:00",
+		"@version": 1,
+		"message": "Mapping filter: 'characterEncodingFilter' to: [/*]",
+		"logger_name": "org.springframework.boot.web.servlet.FilterRegistrationBean",
+		"thread_name": "localhost-startStop-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:30.807+02:00",
+		"@version": 1,
+		"message": "Mapping filter: 'hiddenHttpMethodFilter' to: [/*]",
+		"logger_name": "org.springframework.boot.web.servlet.FilterRegistrationBean",
+		"thread_name": "localhost-startStop-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:30.808+02:00",
+		"@version": 1,
+		"message": "Mapping filter: 'httpPutFormContentFilter' to: [/*]",
+		"logger_name": "org.springframework.boot.web.servlet.FilterRegistrationBean",
+		"thread_name": "localhost-startStop-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:30.808+02:00",
+		"@version": 1,
+		"message": "Mapping filter: 'requestContextFilter' to: [/*]",
+		"logger_name": "org.springframework.boot.web.servlet.FilterRegistrationBean",
+		"thread_name": "localhost-startStop-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:40.256+02:00",
+		"@version": 1,
+		"message": "Building JPA container EntityManagerFactory for persistence unit 'default'",
+		"logger_name": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:40.639+02:00",
+		"@version": 1,
+		"message": "HHH000204: Processing PersistenceUnitInfo [\n\tname: default\n\t...]",
+		"logger_name": "org.hibernate.jpa.internal.util.LogHelper",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:42.646+02:00",
+		"@version": 1,
+		"message": "HHH000412: Hibernate Core {5.0.12.Final}",
+		"logger_name": "org.hibernate.Version",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:42.651+02:00",
+		"@version": 1,
+		"message": "HHH000206: hibernate.properties not found",
+		"logger_name": "org.hibernate.cfg.Environment",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:45.747+02:00",
+		"@version": 1,
+		"message": "HHH000021: Bytecode provider name : javassist",
+		"logger_name": "org.hibernate.cfg.Environment",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:47.156+02:00",
+		"@version": 1,
+		"message": "HCANN000001: Hibernate Commons Annotations {5.0.1.Final}",
+		"logger_name": "org.hibernate.annotations.common.Version",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:53.441+02:00",
+		"@version": 1,
+		"message": "HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect",
+		"logger_name": "org.hibernate.dialect.Dialect",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:54.167+02:00",
+		"@version": 1,
+		"message": "HHH000422: Disabling contextual LOB creation as connection was null",
+		"logger_name": "org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:01:54.172+02:00",
+		"@version": 1,
+		"message": "HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@43f02ef2",
+		"logger_name": "org.hibernate.type.BasicTypeRegistry",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:05.464+02:00",
+		"@version": 1,
+		"message": "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+		"logger_name": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:18.630+02:00",
+		"@version": 1,
+		"message": "Cluster created with settings {hosts=[192.168.10.182:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}",
+		"logger_name": "org.mongodb.driver.cluster",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:18.631+02:00",
+		"@version": 1,
+		"message": "Adding discovered server 192.168.10.182:27017 to client view of cluster",
+		"logger_name": "org.mongodb.driver.cluster",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:20.731+02:00",
+		"@version": 1,
+		"message": "Opened connection [connectionId{localValue:1, serverValue:78994}] to 192.168.10.182:27017",
+		"logger_name": "org.mongodb.driver.connection",
+		"thread_name": "cluster-ClusterId{value='59b1435a98dc615427dd0fe8', description='null'}-192.168.10.182:27017",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:20.908+02:00",
+		"@version": 1,
+		"message": "Monitor thread successfully connected to server with description ServerDescription{address=192.168.10.182:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 4]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=171828819}",
+		"logger_name": "org.mongodb.driver.cluster",
+		"thread_name": "cluster-ClusterId{value='59b1435a98dc615427dd0fe8', description='null'}-192.168.10.182:27017",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:20.987+02:00",
+		"@version": 1,
+		"message": "Discovered cluster type of STANDALONE",
+		"logger_name": "org.mongodb.driver.cluster",
+		"thread_name": "cluster-ClusterId{value='59b1435a98dc615427dd0fe8', description='null'}-192.168.10.182:27017",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:38.221+02:00",
+		"@version": 1,
+		"message": "Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1376c05c: startup date [Thu Sep 07 15:00:45 CEST 2017]; root of context hierarchy",
+		"logger_name": "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:40.693+02:00",
+		"@version": 1,
+		"message": "Mapped \"{[/v1/acquisition],methods=[GET],produces=[application/json]}\" onto public com.loxodon.eu.acquisition.response.ResponseBean com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController.processCrawling(javax.servlet.http.HttpServletRequest,java.lang.String)",
+		"logger_name": "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:40.696+02:00",
+		"@version": 1,
+		"message": "Mapped \"{[/v1/copyimages],methods=[GET],produces=[application/json]}\" onto public com.loxodon.eu.acquisition.response.ResponseBean com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController.copyImagesFromHdfs(javax.servlet.http.HttpServletRequest,java.lang.String)",
+		"logger_name": "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:40.697+02:00",
+		"@version": 1,
+		"message": "Mapped \"{[/v1/readmonitor],methods=[GET],produces=[application/json]}\" onto public java.util.List<com.loxodon.eu.acquisition.monitor.MonitorDataServiceDetails> com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController.readMonitorData(javax.servlet.http.HttpServletRequest)",
+		"logger_name": "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:40.979+02:00",
+		"@version": 1,
+		"message": "Mapped \"{[/error],produces=[text/html]}\" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)",
+		"logger_name": "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:40.980+02:00",
+		"@version": 1,
+		"message": "Mapped \"{[/error]}\" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)",
+		"logger_name": "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:42.161+02:00",
+		"@version": 1,
+		"message": "Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]",
+		"logger_name": "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:42.162+02:00",
+		"@version": 1,
+		"message": "Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]",
+		"logger_name": "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:43.561+02:00",
+		"@version": 1,
+		"message": "Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]",
+		"logger_name": "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:51.224+02:00",
+		"@version": 1,
+		"message": "Registering beans for JMX exposure on startup",
+		"logger_name": "org.springframework.jmx.export.annotation.AnnotationMBeanExporter",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:53.155+02:00",
+		"@version": 1,
+		"message": "Tomcat started on port(s): 6498 (http)",
+		"logger_name": "org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:02:53.224+02:00",
+		"@version": 1,
+		"message": "Started AcquisitionServiceApplication in 149.763 seconds (JVM running for 162.059)",
+		"logger_name": "com.loxodon.eu.acquisition.AcquisitionServiceApplication",
+		"thread_name": "main",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:14.702+02:00",
+		"@version": 1,
+		"message": "Initializing Spring FrameworkServlet 'dispatcherServlet'",
+		"logger_name": "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+		"thread_name": "http-nio-6498-exec-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:14.702+02:00",
+		"@version": 1,
+		"message": "FrameworkServlet 'dispatcherServlet': initialization started",
+		"logger_name": "org.springframework.web.servlet.DispatcherServlet",
+		"thread_name": "http-nio-6498-exec-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:14.965+02:00",
+		"@version": 1,
+		"message": "FrameworkServlet 'dispatcherServlet': initialization completed in 263 ms",
+		"logger_name": "org.springframework.web.servlet.DispatcherServlet",
+		"thread_name": "http-nio-6498-exec-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:15.725+02:00",
+		"@version": 1,
+		"message": "*********************************WebService has invoked ***********************************************************",
+		"logger_name": "com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController",
+		"thread_name": "http-nio-6498-exec-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:15.725+02:00",
+		"@version": 1,
+		"message": "WebService is Invoked to crawl the source  booking",
+		"logger_name": "com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController",
+		"thread_name": "http-nio-6498-exec-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:15.725+02:00",
+		"@version": 1,
+		"message": "The time is now 07/09/2017 15:04:15",
+		"logger_name": "com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController",
+		"thread_name": "http-nio-6498-exec-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:15.896+02:00",
+		"@version": 1,
+		"message": "No task executor bean found for async processing: no bean of type TaskExecutor and no bean named 'taskExecutor' either",
+		"logger_name": "org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptor",
+		"thread_name": "http-nio-6498-exec-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:15.961+02:00",
+		"@version": 1,
+		"message": "Completed Processing of  web crawling of source Name booking",
+		"logger_name": "com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController",
+		"thread_name": "http-nio-6498-exec-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:16.058+02:00",
+		"@version": 1,
+		"message": "****************************Booking Schedular has invoked******************************************************************",
+		"logger_name": "com.loxodon.eu.acquisition.scheduler.AcqisitionScheduler",
+		"thread_name": "SimpleAsyncTaskExecutor-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:16.059+02:00",
+		"@version": 1,
+		"message": "The time is now 07/09/2017 15:04:16",
+		"logger_name": "com.loxodon.eu.acquisition.scheduler.AcqisitionScheduler",
+		"thread_name": "SimpleAsyncTaskExecutor-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:16.059+02:00",
+		"@version": 1,
+		"message": " Saving Status in Monitoring table, sourcekamermetontbijt , taks kamermetontbijt_Scheduler",
+		"logger_name": "com.loxodon.eu.acquisition.scheduler.AcqisitionScheduler",
+		"thread_name": "SimpleAsyncTaskExecutor-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:17.715+02:00",
+		"@version": 1,
+		"message": "Strated processing the Booking Service",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:17.719+02:00",
+		"@version": 1,
+		"message": "Error Code : 500: Crawling : Problems while Procesing the Booking Service./home/appserver/booking/booking_URLS.txt (No such file or directory)",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-1",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:04:17.719+02:00",
+		"@version": 1,
+		"message": "*********************************SUCCESSFULLY Booking Scheduler has Finished***********************************************************",
+		"logger_name": "com.loxodon.eu.acquisition.scheduler.AcqisitionScheduler",
+		"thread_name": "SimpleAsyncTaskExecutor-1",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.714+02:00",
+		"@version": 1,
+		"message": "*********************************WebService has invoked ***********************************************************",
+		"logger_name": "com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController",
+		"thread_name": "http-nio-6498-exec-6",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.715+02:00",
+		"@version": 1,
+		"message": "WebService is Invoked to crawl the source  booking",
+		"logger_name": "com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController",
+		"thread_name": "http-nio-6498-exec-6",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.715+02:00",
+		"@version": 1,
+		"message": "The time is now 07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController",
+		"thread_name": "http-nio-6498-exec-6",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.743+02:00",
+		"@version": 1,
+		"message": "Completed Processing of  web crawling of source Name booking",
+		"logger_name": "com.loxodon.eu.acquisition.controller.AcquisitionWebServiceController",
+		"thread_name": "http-nio-6498-exec-6",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.804+02:00",
+		"@version": 1,
+		"message": "****************************Booking Schedular has invoked******************************************************************",
+		"logger_name": "com.loxodon.eu.acquisition.scheduler.AcqisitionScheduler",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.805+02:00",
+		"@version": 1,
+		"message": "The time is now 07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.scheduler.AcqisitionScheduler",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.805+02:00",
+		"@version": 1,
+		"message": " Saving Status in Monitoring table, sourcekamermetontbijt , taks kamermetontbijt_Scheduler",
+		"logger_name": "com.loxodon.eu.acquisition.scheduler.AcqisitionScheduler",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.945+02:00",
+		"@version": 1,
+		"message": "Strated processing the Booking Service",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:35.947+02:00",
+		"@version": 1,
+		"message": "Reading the count of existing Records from HDFS  for Booking.com",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:39.750+02:00",
+		"@version": 1,
+		"message": "Unable to load native-hadoop library for your platform... using builtin-java classes where applicable",
+		"logger_name": "org.apache.hadoop.util.NativeCodeLoader",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "WARN",
+		"level_value": 30000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:53.914+02:00",
+		"@version": 1,
+		"message": "Total unique Room Ids from HDFS:1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:09:53.915+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:10:01.415+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:10:01.416+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 15:10:01",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:10:05.394+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/huis-van-bewaring.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=71ccc80b8dbd29237dffaea7b9b30c60;ucfs=1;aer=1;srpvid=bb7b5c947487010b;srepoch=1504789801;room1=A%2CA;hpos=1;hapos=1;dest_type=city;dest_id=-2140121;srfid=290ffd00fa061d2c3e2846727013ab813bce3113X1;from=searchresults;highlight_room=;spdest=ci/-2140121;spdist=2.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:10:08.002+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/theaterhotel-almelo.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=71ccc80b8dbd29237dffaea7b9b30c60;ucfs=1;aer=1;srpvid=bb7b5c947487010b;srepoch=1504789801;room1=A%2CA;hpos=2;hapos=2;dest_type=city;dest_id=-2140121;srfid=290ffd00fa061d2c3e2846727013ab813bce3113X2;from=searchresults;highlight_room=;spdest=ci/-2140121;spdist=2.6#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:10:16.809+02:00",
+		"@version": 1,
+		"message": "Opened connection [connectionId{localValue:2, serverValue:78995}] to 192.168.10.182:27017",
+		"logger_name": "org.mongodb.driver.connection",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:11:37.265+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/b-amp-b-erve-ten-dam.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=71ccc80b8dbd29237dffaea7b9b30c60;ucfs=1;aer=1;srpvid=bb7b5c947487010b;srepoch=1504789801;room1=A%2CA;hpos=3;hapos=3;dest_type=city;dest_id=-2140121;srfid=290ffd00fa061d2c3e2846727013ab813bce3113X3;from=searchresults;highlight_room=;spdest=ci/-2140121;spdist=8.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:12:54.447+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/bungalowpark-hoge-hexel.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=71ccc80b8dbd29237dffaea7b9b30c60;ucfs=1;aer=1;srpvid=bb7b5c947487010b;srepoch=1504789801;room1=A%2CA;hpos=5;hapos=5;dest_type=city;dest_id=-2140121;srfid=290ffd00fa061d2c3e2846727013ab813bce3113X5;from=searchresults;highlight_room=;spdest=ci/-2140121;spdist=5.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:12:59.354+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/vakantiepark-molke.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=71ccc80b8dbd29237dffaea7b9b30c60;ucfs=1;aer=1;srpvid=bb7b5c947487010b;srepoch=1504789801;room1=A%2CA;hpos=7;hapos=7;dest_type=city;dest_id=-2140121;srfid=290ffd00fa061d2c3e2846727013ab813bce3113X7;from=searchresults;highlight_room=;spdest=ci/-2140121;spdist=9.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:14:19.680+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/twentekiek-bornerbroek.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=71ccc80b8dbd29237dffaea7b9b30c60;ucfs=1;aer=1;srpvid=bb7b5c947487010b;srepoch=1504789801;room1=A%2CA;hpos=9;hapos=9;dest_type=city;dest_id=-2140121;srfid=290ffd00fa061d2c3e2846727013ab813bce3113X9;from=searchresults;highlight_room=;spdest=ci/-2140121;spdist=8.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:14:22.390+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hoeve-de-haar.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=71ccc80b8dbd29237dffaea7b9b30c60;ucfs=1;aer=1;srpvid=bb7b5c947487010b;srepoch=1504789801;room1=A%2CA;hpos=11;hapos=11;dest_type=city;dest_id=-2140121;srfid=290ffd00fa061d2c3e2846727013ab813bce3113X11;from=searchresults;highlight_room=;spdest=ci/-2140121;spdist=8.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:15:36.649+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-home-het-reehoes.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=71ccc80b8dbd29237dffaea7b9b30c60;ucfs=1;aer=1;srpvid=bb7b5c947487010b;srepoch=1504789801;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140121;srfid=290ffd00fa061d2c3e2846727013ab813bce3113X14;from=searchresults;highlight_room=;spdest=ci/-2140121;spdist=6.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:16:29.181+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 15:16:29",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:16:29.182+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:16:30.793+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:16:30.793+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 15:16:30",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:16:33.772+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hotelnassaubergen.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=1;hapos=1;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X1;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=5.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:17:32.998+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/dedennenbergenazee.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=2;hapos=2;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X2;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=5.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:18:50.151+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/fletcher-marijke.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=3;hapos=3;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X3;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=1.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:18:55.316+02:00",
+		"@version": 1,
+		"message": "problems occurs while saving image to mongoDB:https://s-ec.bstatic.com/images/hotel/max1280x900/147/14740742.jpg :Unsupported Image Type",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:18:56.719+02:00",
+		"@version": 1,
+		"message": "problems occurs while saving image to mongoDB:https://t-ec.bstatic.com/images/hotel/max1280x900/147/14740778.jpg :Unsupported Image Type",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:18:59.270+02:00",
+		"@version": 1,
+		"message": "problems occurs while saving image to mongoDB:https://t-ec.bstatic.com/images/hotel/max1280x900/147/14740811.jpg :Unsupported Image Type",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:19:32.013+02:00",
+		"@version": 1,
+		"message": "problems occurs while saving image to mongoDB:https://s-ec.bstatic.com/images/hotel/max1280x900/147/14740753.jpg :Unsupported Image Type",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:19:33.135+02:00",
+		"@version": 1,
+		"message": "problems occurs while saving image to mongoDB:https://s-ec.bstatic.com/images/hotel/max1280x900/147/14740760.jpg :Unsupported Image Type",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:19:33.633+02:00",
+		"@version": 1,
+		"message": "problems occurs while saving image to mongoDB:https://s-ec.bstatic.com/images/hotel/max1280x900/147/14740765.jpg :Unsupported Image Type",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:19:33.911+02:00",
+		"@version": 1,
+		"message": "problems occurs while saving image to mongoDB:https://t-ec.bstatic.com/images/hotel/max1280x900/147/14740771.jpg :Unsupported Image Type",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:19:39.601+02:00",
+		"@version": 1,
+		"message": "problems occurs while saving image to mongoDB:https://t-ec.bstatic.com/images/hotel/max1280x900/147/14740821.jpg :Unsupported Image Type",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:21:35.164+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/appartement-quot-trendy-quot-alkmaar.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=6;hapos=6;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X6;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=6.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:21:36.826+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/mare-liberum.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=7;hapos=7;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X7;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=8.6#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:22:11.361+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/camperduin.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=8;hapos=8;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X8;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=6.1#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:23:23.679+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/mij-amp-lounge.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=9;hapos=9;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X9;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=6.8#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:24:39.474+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/apartment-de-koning.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=10;hapos=10;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X10;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=6.6#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:24:40.962+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/zandstudio.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=11;hapos=11;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X11;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=7.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:24:45.230+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/b-amp-b-welterusten-in-langedijk.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=6d6edb30678111a20a9b9223712ddb6e;ucfs=1;aer=1;srpvid=769f5d578cc801ed;srepoch=1504790191;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140123;srfid=49539ea3fcd3bdf26c47232cf75f6a5a42fc4fa3X14;from=searchresults;highlight_room=;spdest=ci/-2140123;spdist=7.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:25:12.735+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 15:25:12",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:25:12.735+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:25:13.924+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!2",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:25:13.924+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 15:25:13",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:25:16.594+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/kodde-apartments-aagtekerke.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjVIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=735daf02fa00922175fdadb4b25a6276;ucfs=1;srpvid=f06a5e5c50b6008d;srepoch=1504790714;room1=A%2CA;hpos=1;hapos=1;dest_type=city;dest_id=-2140125;srfid=e9238d1ec722a5b74c660686d12cbbc1bfb55a73X1;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:25:19.130+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/cozy-cottage.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjVIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=735daf02fa00922175fdadb4b25a6276;ucfs=1;srpvid=f06a5e5c50b6008d;srepoch=1504790714;room1=A%2CA;hpos=3;hapos=3;dest_type=city;dest_id=-2140125;srfid=e9238d1ec722a5b74c660686d12cbbc1bfb55a73X3;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:25:45.762+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/prelaatweg-31.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjVIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=735daf02fa00922175fdadb4b25a6276;ucfs=1;srpvid=f06a5e5c50b6008d;srepoch=1504790714;room1=A%2CA;hpos=5;hapos=5;dest_type=city;dest_id=-2140125;srfid=e9238d1ec722a5b74c660686d12cbbc1bfb55a73X5;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:26:30.455+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-house-sunny-terrace.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjVIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=735daf02fa00922175fdadb4b25a6276;ucfs=1;srpvid=f06a5e5c50b6008d;srepoch=1504790714;room1=A%2CA;hpos=8;hapos=8;dest_type=city;dest_id=-2140125;srfid=e9238d1ec722a5b74c660686d12cbbc1bfb55a73X8;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:26:31.771+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/aan-de-waterspiegel.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjVIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=735daf02fa00922175fdadb4b25a6276;ucfs=1;srpvid=f06a5e5c50b6008d;srepoch=1504790714;room1=A%2CA;hpos=9;hapos=9;dest_type=city;dest_id=-2140125;srfid=e9238d1ec722a5b74c660686d12cbbc1bfb55a73X9;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:26:33.005+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/pinkeltje.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjVIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=735daf02fa00922175fdadb4b25a6276;ucfs=1;srpvid=f06a5e5c50b6008d;srepoch=1504790714;room1=A%2CA;hpos=10;hapos=10;dest_type=city;dest_id=-2140125;srfid=e9238d1ec722a5b74c660686d12cbbc1bfb55a73X10;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:26:37.563+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/apartment-zonnehoek.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjVIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=735daf02fa00922175fdadb4b25a6276;ucfs=1;srpvid=f06a5e5c50b6008d;srepoch=1504790714;room1=A%2CA;hpos=13;hapos=13;dest_type=city;dest_id=-2140125;srfid=e9238d1ec722a5b74c660686d12cbbc1bfb55a73X13;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:26:38.813+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/39-t-boerenhuis.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjVIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=735daf02fa00922175fdadb4b25a6276;ucfs=1;srpvid=f06a5e5c50b6008d;srepoch=1504790714;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140125;srfid=e9238d1ec722a5b74c660686d12cbbc1bfb55a73X14;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:27:43.288+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 15:27:43",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:27:43.289+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:27:44.856+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:27:44.857+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 15:27:44",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:28:28.298+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/botterweck.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjdIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ba58790f4f3669068e0466ea2fc3f13d;ucfs=1;aer=1;srpvid=7c9f5ea828660105;srepoch=1504790865;room1=A%2CA;hpos=2;hapos=2;dest_type=city;dest_id=-2140127;srfid=c4d5243be1396796c2b00b6c7e54c8a42b446809X2;from=searchresults;highlight_room=;spdest=ci/-2140127;spdist=4.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:30:10.162+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hotelrichevalk.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjdIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ba58790f4f3669068e0466ea2fc3f13d;ucfs=1;aer=1;srpvid=7c9f5ea828660105;srepoch=1504790865;room1=A%2CA;hpos=4;hapos=4;dest_type=city;dest_id=-2140127;srfid=c4d5243be1396796c2b00b6c7e54c8a42b446809X4;from=searchresults;highlight_room=;spdest=ci/-2140127;spdist=4.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:31:03.751+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hotelschaepkensstfijt.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjdIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ba58790f4f3669068e0466ea2fc3f13d;ucfs=1;aer=1;srpvid=7c9f5ea828660105;srepoch=1504790865;room1=A%2CA;hpos=5;hapos=5;dest_type=city;dest_id=-2140127;srfid=c4d5243be1396796c2b00b6c7e54c8a42b446809X5;from=searchresults;highlight_room=;spdest=ci/-2140127;spdist=3.6#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:37:54.946+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/gerlach.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjdIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ba58790f4f3669068e0466ea2fc3f13d;ucfs=1;aer=1;srpvid=7c9f5ea828660105;srepoch=1504790865;room1=A%2CA;hpos=9;hapos=9;dest_type=city;dest_id=-2140127;srfid=c4d5243be1396796c2b00b6c7e54c8a42b446809X9;from=searchresults;highlight_room=;spdest=ci/-2140127;spdist=4.9#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:42:23.822+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/thermaetel.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjdIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ba58790f4f3669068e0466ea2fc3f13d;ucfs=1;aer=1;srpvid=7c9f5ea828660105;srepoch=1504790865;room1=A%2CA;hpos=13;hapos=13;dest_type=city;dest_id=-2140127;srfid=c4d5243be1396796c2b00b6c7e54c8a42b446809X13;from=searchresults;highlight_room=;spdest=ci/-2140127;spdist=4.9#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:44:34.549+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/dietmeijsvakantieapp.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjdIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ba58790f4f3669068e0466ea2fc3f13d;ucfs=1;aer=1;srpvid=7c9f5ea828660105;srepoch=1504790865;room1=A%2CA;hpos=15;hapos=15;dest_type=city;dest_id=-2140127;srfid=c4d5243be1396796c2b00b6c7e54c8a42b446809X15;from=searchresults;highlight_room=;spdest=ci/-2140127;spdist=4.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:45:47.109+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 15:45:47",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:45:47.110+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:45:48.746+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:45:48.747+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 15:45:48",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:46:44.083+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/recreatiepark-het-esmeer-aalst1.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c4a44983e73f42379deb1956f8c5a6d0;ucfs=1;aer=1;srpvid=5f9460c6bf630133;srepoch=1504791949;room1=A%2CA;hpos=5;hapos=5;dest_type=city;dest_id=-2140128;srfid=2478135ee389902a62381991a71be368e22a0595X5;from=searchresults;highlight_room=;spdest=ci/-2140128;spdist=4.1#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:48:43.652+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/boerderij-de-spijken.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c4a44983e73f42379deb1956f8c5a6d0;ucfs=1;aer=1;srpvid=5f9460c6bf630133;srepoch=1504791949;room1=A%2CA;hpos=9;hapos=9;dest_type=city;dest_id=-2140128;srfid=2478135ee389902a62381991a71be368e22a0595X9;from=searchresults;highlight_room=;spdest=ci/-2140128;spdist=6.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:49:31.983+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/azzurro.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c4a44983e73f42379deb1956f8c5a6d0;ucfs=1;aer=1;srpvid=5f9460c6bf630133;srepoch=1504791949;room1=A%2CA;hpos=10;hapos=10;dest_type=city;dest_id=-2140128;srfid=2478135ee389902a62381991a71be368e22a0595X10;from=searchresults;highlight_room=;spdest=ci/-2140128;spdist=6.9#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:51:53.209+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/bed-amp-breakfast-vanagt.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMjhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c4a44983e73f42379deb1956f8c5a6d0;ucfs=1;aer=1;srpvid=5f9460c6bf630133;srepoch=1504791949;room1=A%2CA;hpos=13;hapos=13;dest_type=city;dest_id=-2140128;srfid=2478135ee389902a62381991a71be368e22a0595X13;from=searchresults;highlight_room=;spdest=ci/-2140128;spdist=7.6#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:52:21.308+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 15:52:21",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:52:21.308+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:52:22.632+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:52:22.632+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 15:52:22",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:52:25.139+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/het-wapen-van-aelden.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a0a8a0f7586c45efcd2daff4b0973e0b;ucfs=1;srpvid=f384618be4ca0636;srepoch=1504792343;room1=A%2CA;hpos=1;hapos=1;dest_type=city;dest_id=-2140130;srfid=50516d5eabcf922093c8665f63a52c20d070822aX1;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:54:24.951+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/oes-tilber.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a0a8a0f7586c45efcd2daff4b0973e0b;ucfs=1;aer=1;srpvid=f384618be4ca0636;srepoch=1504792343;room1=A%2CA;hpos=3;hapos=3;dest_type=city;dest_id=-2140130;srfid=50516d5eabcf922093c8665f63a52c20d070822aX3;from=searchresults;highlight_room=;spdest=ci/-2140130;spdist=1.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:56:20.339+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/de-mepperdennen.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a0a8a0f7586c45efcd2daff4b0973e0b;ucfs=1;aer=1;srpvid=f384618be4ca0636;srepoch=1504792343;room1=A%2CA;hpos=6;hapos=6;dest_type=city;dest_id=-2140130;srfid=50516d5eabcf922093c8665f63a52c20d070822aX6;from=searchresults;highlight_room=;spdest=ci/-2140130;spdist=1.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:56:51.610+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hotel-cafe-restaurant-hegen.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a0a8a0f7586c45efcd2daff4b0973e0b;ucfs=1;aer=1;srpvid=f384618be4ca0636;srepoch=1504792343;room1=A%2CA;hpos=11;hapos=11;dest_type=city;dest_id=-2140130;srfid=50516d5eabcf922093c8665f63a52c20d070822aX11;from=searchresults;highlight_room=;spdest=ci/-2140130;spdist=2.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:58:05.854+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-home-bronzen-emmer-01.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a0a8a0f7586c45efcd2daff4b0973e0b;ucfs=1;aer=1;srpvid=f384618be4ca0636;srepoch=1504792343;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140130;srfid=50516d5eabcf922093c8665f63a52c20d070822aX14;from=searchresults;highlight_room=;spdest=ci/-2140130;spdist=2.6#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:58:07.104+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 15:58:06",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:58:07.104+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:58:08.347+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:58:08.348+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 15:58:08",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:58:57.218+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/logement-de-reiziger.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=841ff49c766ffa4dd5f92470e0f053be;ucfs=1;aer=1;srpvid=3a96623898350758;srepoch=1504792688;room1=A%2CA;hpos=2;hapos=2;dest_type=city;dest_id=-2140133;srfid=8a1da2c51f8d8825c3350d47d64897344d43edbdX2;from=searchresults;highlight_room=;spdest=ci/-2140133;spdist=2.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T15:59:46.834+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/bed-amp-breakfast-gennep.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=841ff49c766ffa4dd5f92470e0f053be;ucfs=1;aer=1;srpvid=3a96623898350758;srepoch=1504792688;room1=A%2CA;hpos=3;hapos=3;dest_type=city;dest_id=-2140133;srfid=8a1da2c51f8d8825c3350d47d64897344d43edbdX3;from=searchresults;highlight_room=;spdest=ci/-2140133;spdist=2.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:03:06.218+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/guesthouse-de-heide.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=841ff49c766ffa4dd5f92470e0f053be;ucfs=1;aer=1;srpvid=3a96623898350758;srepoch=1504792688;room1=A%2CA;hpos=8;hapos=8;dest_type=city;dest_id=-2140133;srfid=8a1da2c51f8d8825c3350d47d64897344d43edbdX8;from=searchresults;highlight_room=;spdest=ci/-2140133;spdist=6.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:03:07.575+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-home-guesthouse-de-heide.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=841ff49c766ffa4dd5f92470e0f053be;ucfs=1;aer=1;srpvid=3a96623898350758;srepoch=1504792688;room1=A%2CA;hpos=9;hapos=9;dest_type=city;dest_id=-2140133;srfid=8a1da2c51f8d8825c3350d47d64897344d43edbdX9;from=searchresults;highlight_room=;spdest=ci/-2140133;spdist=6.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:05:03.419+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/vakantie-bij-meeussen.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=841ff49c766ffa4dd5f92470e0f053be;ucfs=1;aer=1;srpvid=3a96623898350758;srepoch=1504792688;room1=A%2CA;hpos=12;hapos=12;dest_type=city;dest_id=-2140133;srfid=8a1da2c51f8d8825c3350d47d64897344d43edbdX12;from=searchresults;highlight_room=;spdest=ci/-2140133;spdist=6.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:05:04.538+02:00",
+		"@version": 1,
+		"message": "2 http://www.booking.com/hotel/nl/molendal.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=841ff49c766ffa4dd5f92470e0f053be;ucfs=1;aer=1;srpvid=3a96623898350758;srepoch=1504792688;room1=A%2CA;hpos=13;hapos=13;dest_type=city;dest_id=-2140133;srfid=8a1da2c51f8d8825c3350d47d64897344d43edbdX13;from=searchresults;highlight_room=;spdest=ci/-2140133;spdist=6.2#hotelTmpl",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:05:05.520+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-home-vakantie-bij-meeussen-i.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzNIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=841ff49c766ffa4dd5f92470e0f053be;ucfs=1;aer=1;srpvid=3a96623898350758;srepoch=1504792688;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140133;srfid=8a1da2c51f8d8825c3350d47d64897344d43edbdX14;from=searchresults;highlight_room=;spdest=ci/-2140133;spdist=6.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:05:07.018+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 16:05:07",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:05:07.018+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:05:08.524+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:05:08.525+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 16:05:08",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:06:24.825+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/blue-mansion.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=515542e233e399214e7fff57ba09a820;ucfs=1;srpvid=065d630a0487023c;srepoch=1504793109;room1=A%2CA;hpos=2;hapos=2;dest_type=city;dest_id=-2140138;srfid=f91824a54f20ad85c055fd8bd4ac8ad27fd5cb3cX2;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:10:26.819+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/park-inn-by-radisson-blu.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=515542e233e399214e7fff57ba09a820;ucfs=1;aer=1;srpvid=065d630a0487023c;srepoch=1504793109;room1=A%2CA;hpos=8;hapos=8;dest_type=city;dest_id=-2140138;srfid=f91824a54f20ad85c055fd8bd4ac8ad27fd5cb3cX8;from=searchresults;highlight_room=;spdest=ci/-2140138;spdist=1.8#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:12:24.286+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/citizenm-amsterdam-airport.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=515542e233e399214e7fff57ba09a820;ucfs=1;aer=1;srpvid=065d630a0487023c;srepoch=1504793109;room1=A%2CA;hpos=10;hapos=10;dest_type=city;dest_id=-2140138;srfid=f91824a54f20ad85c055fd8bd4ac8ad27fd5cb3cX10;from=searchresults;highlight_room=;spdest=ci/-2140138;spdist=4.8#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:13:58.251+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/valkschiphol.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=515542e233e399214e7fff57ba09a820;ucfs=1;aer=1;srpvid=065d630a0487023c;srepoch=1504793109;room1=A%2CA;hpos=12;hapos=12;dest_type=city;dest_id=-2140138;srfid=f91824a54f20ad85c055fd8bd4ac8ad27fd5cb3cX12;from=searchresults;highlight_room=;spdest=ci/-2140138;spdist=5.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:17:02.735+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hyatt-place-amsterdam-airport.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxMzhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=515542e233e399214e7fff57ba09a820;ucfs=1;aer=1;srpvid=065d630a0487023c;srepoch=1504793109;room1=A%2CA;hpos=15;hapos=15;dest_type=city;dest_id=-2140138;srfid=f91824a54f20ad85c055fd8bd4ac8ad27fd5cb3cX15;from=searchresults;highlight_room=;spdest=ci/-2140138;spdist=4.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:18:22.525+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 16:18:22",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:18:22.525+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:18:24.266+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:18:24.266+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 16:18:24",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:20:56.813+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hyatt-place-amsterdam-airport.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a9ce5b08aa143342ee817bdf43969ed6;ucfs=1;aer=1;srpvid=21e26498d9900058;srepoch=1504793904;room1=A%2CA;hpos=3;hapos=3;dest_type=city;dest_id=-2140140;srfid=3935f793015a9c4473a02728e4505f858432c3feX3;from=searchresults;highlight_room=;spdest=ci/-2140140;spdist=3.8#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:24:19.932+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hilton-amsterdam-airport-schiphol.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a9ce5b08aa143342ee817bdf43969ed6;ucfs=1;aer=1;srpvid=21e26498d9900058;srepoch=1504793904;room1=A%2CA;hpos=6;hapos=6;dest_type=city;dest_id=-2140140;srfid=3935f793015a9c4473a02728e4505f858432c3feX6;from=searchresults;highlight_room=;spdest=ci/-2140140;spdist=4.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:25:30.642+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/novotel-amsterdam-schiphol-airport.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a9ce5b08aa143342ee817bdf43969ed6;ucfs=1;aer=1;srpvid=21e26498d9900058;srepoch=1504793904;room1=A%2CA;hpos=7;hapos=7;dest_type=city;dest_id=-2140140;srfid=3935f793015a9c4473a02728e4505f858432c3feX7;from=searchresults;highlight_room=;spdest=ci/-2140140;spdist=4.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:27:17.601+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/best-western-amsterdam-airport-hotel.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a9ce5b08aa143342ee817bdf43969ed6;ucfs=1;aer=1;srpvid=21e26498d9900058;srepoch=1504793904;room1=A%2CA;hpos=9;hapos=9;dest_type=city;dest_id=-2140140;srfid=3935f793015a9c4473a02728e4505f858432c3feX9;from=searchresults;highlight_room=;spdest=ci/-2140140;spdist=3.1#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:28:13.489+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-inn-express-amsterdam-schiphol.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a9ce5b08aa143342ee817bdf43969ed6;ucfs=1;aer=1;srpvid=21e26498d9900058;srepoch=1504793904;room1=A%2CA;hpos=10;hapos=10;dest_type=city;dest_id=-2140140;srfid=3935f793015a9c4473a02728e4505f858432c3feX10;from=searchresults;highlight_room=;spdest=ci/-2140140;spdist=4.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:30:57.372+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hampton-by-hilton-amsterdam-airport-schiphol.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a9ce5b08aa143342ee817bdf43969ed6;ucfs=1;aer=1;srpvid=21e26498d9900058;srepoch=1504793904;room1=A%2CA;hpos=13;hapos=13;dest_type=city;dest_id=-2140140;srfid=3935f793015a9c4473a02728e4505f858432c3feX13;from=searchresults;highlight_room=;spdest=ci/-2140140;spdist=4.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:31:59.131+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/valkschiphol.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a9ce5b08aa143342ee817bdf43969ed6;ucfs=1;aer=1;srpvid=21e26498d9900058;srepoch=1504793904;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140140;srfid=3935f793015a9c4473a02728e4505f858432c3feX14;from=searchresults;highlight_room=;spdest=ci/-2140140;spdist=4.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:33:12.468+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/veenen.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDBIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a9ce5b08aa143342ee817bdf43969ed6;ucfs=1;aer=1;srpvid=21e26498d9900058;srepoch=1504793904;room1=A%2CA;hpos=15;hapos=15;dest_type=city;dest_id=-2140140;srfid=3935f793015a9c4473a02728e4505f858432c3feX15;from=searchresults;highlight_room=;spdest=ci/-2140140;spdist=7.9#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:34:21.942+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 16:34:21",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:34:21.942+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:34:23.396+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:34:23.396+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 16:34:23",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:35:52.263+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-home-huize-maaszicht-09.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;srpvid=d2d66677c227033a;srepoch=1504794863;room1=A%2CA;hpos=2;hapos=2;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X2;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:35:54.412+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/apartment-t-kreekhuske-ii.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794863;room1=A%2CA;hpos=4;hapos=4;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X4;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=3.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:36:15.912+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/lev-amp-breakfast.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794864;room1=A%2CA;hpos=7;hapos=7;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X7;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=4.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:36:17.545+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/in-den-verdwaalde-koogel.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794864;room1=A%2CA;hpos=8;hapos=8;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X8;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=5.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:37:46.841+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/aan-de-dijk-in-brakel.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794864;room1=A%2CA;hpos=10;hapos=10;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X10;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=5.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:37:48.083+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/boerderij-de-spijken.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794864;room1=A%2CA;hpos=11;hapos=11;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X11;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=6.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:38:39.632+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/b-amp-b-de-bloesemhof.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794864;room1=A%2CA;hpos=12;hapos=12;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X12;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=7.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:38:40.837+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/herberg-de-swaen.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794864;room1=A%2CA;hpos=13;hapos=13;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X13;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=7.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:39:32.218+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/van-der-valk-zaltbommel-a2.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794864;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X14;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=8.6#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:40:24.616+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/familiehuis-in-stadscentrum-zaltbommel.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDFIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=a21cf51a7c052e760432eb74aa3358cf;ucfs=1;aer=1;srpvid=d2d66677c227033a;srepoch=1504794864;room1=A%2CA;hpos=15;hapos=15;dest_type=city;dest_id=-2140141;srfid=3fb84f520461f933a81cadfe64727dba06959cc2X15;from=searchresults;highlight_room=;spdest=ci/-2140141;spdist=8.8#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:40:24.658+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 16:40:24",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:40:24.659+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:40:25.997+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:40:25.998+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 16:40:25",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:42:01.480+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hotelcongwiccwir.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDJIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=90bfe6dd81e0de3502dcef051b9ce70e;ucfs=1;aer=1;srpvid=8305672d916e0497;srepoch=1504795226;room1=A%2CA;hpos=3;hapos=3;dest_type=city;dest_id=-2140142;srfid=98d1c16102b0d4e424e53ca6b0b96601f5ad7b38X3;from=searchresults;highlight_room=;spdest=ci/-2140142;spdist=7.9#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:43:01.999+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/vakantiepark-eiland-van-maurik.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDJIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=90bfe6dd81e0de3502dcef051b9ce70e;ucfs=1;aer=1;srpvid=8305672d916e0497;srepoch=1504795226;room1=A%2CA;hpos=5;hapos=5;dest_type=city;dest_id=-2140142;srfid=98d1c16102b0d4e424e53ca6b0b96601f5ad7b38X5;from=searchresults;highlight_room=;spdest=ci/-2140142;spdist=8.9#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:44:24.773+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/t-heerenhuys.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDJIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=90bfe6dd81e0de3502dcef051b9ce70e;ucfs=1;aer=1;srpvid=8305672d916e0497;srepoch=1504795226;room1=A%2CA;hpos=6;hapos=6;dest_type=city;dest_id=-2140142;srfid=98d1c16102b0d4e424e53ca6b0b96601f5ad7b38X6;from=searchresults;highlight_room=;spdest=ci/-2140142;spdist=8.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:44:55.874+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hoteldewereld.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDJIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=90bfe6dd81e0de3502dcef051b9ce70e;ucfs=1;aer=1;srpvid=8305672d916e0497;srepoch=1504795226;room1=A%2CA;hpos=7;hapos=7;dest_type=city;dest_id=-2140142;srfid=98d1c16102b0d4e424e53ca6b0b96601f5ad7b38X7;from=searchresults;highlight_room=;spdest=ci/-2140142;spdist=8.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:46:32.303+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/koningsvlinder.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDJIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=90bfe6dd81e0de3502dcef051b9ce70e;ucfs=1;aer=1;srpvid=8305672d916e0497;srepoch=1504795226;room1=A%2CA;hpos=10;hapos=10;dest_type=city;dest_id=-2140142;srfid=98d1c16102b0d4e424e53ca6b0b96601f5ad7b38X10;from=searchresults;highlight_room=;spdest=ci/-2140142;spdist=8.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:48:00.253+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/aparthotel-short-stay.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDJIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=90bfe6dd81e0de3502dcef051b9ce70e;ucfs=1;aer=1;srpvid=8305672d916e0497;srepoch=1504795226;room1=A%2CA;hpos=11;hapos=11;dest_type=city;dest_id=-2140142;srfid=98d1c16102b0d4e424e53ca6b0b96601f5ad7b38X11;from=searchresults;highlight_room=;spdest=ci/-2140142;spdist=8.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:48:01.578+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/de-twee-linden.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDJIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=90bfe6dd81e0de3502dcef051b9ce70e;ucfs=1;aer=1;srpvid=8305672d916e0497;srepoch=1504795226;room1=A%2CA;hpos=12;hapos=12;dest_type=city;dest_id=-2140142;srfid=98d1c16102b0d4e424e53ca6b0b96601f5ad7b38X12;from=searchresults;highlight_room=;spdest=ci/-2140142;spdist=8.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:49:51.814+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/de-thijmse-berg-family-cottage.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDJIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=90bfe6dd81e0de3502dcef051b9ce70e;ucfs=1;aer=1;srpvid=8305672d916e0497;srepoch=1504795226;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140142;srfid=98d1c16102b0d4e424e53ca6b0b96601f5ad7b38X14;from=searchresults;highlight_room=;spdest=ci/-2140142;spdist=3.1#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:49:53.324+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 16:49:53",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:49:53.525+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:49:54.971+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:49:54.972+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 16:49:54",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:49:57.533+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/crawfurd-39-s-corner.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=1;hapos=1;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX1;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=5.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:51:08.275+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/grandcafe-herberg-tkoetshuis.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=3;hapos=3;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX3;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=8.6#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:52:46.131+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/restaurant-aduard.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=5;hapos=5;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX5;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=8.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:53:17.989+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/boertel-de-maarsdijk.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=6;hapos=6;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX6;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=8.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:54:40.645+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/groningen-buiten.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=8;hapos=8;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX8;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=5.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:55:45.110+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/noorderloft-hornhuizen.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=9;hapos=9;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX9;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=9.9#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:56:19.008+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/b-amp-b-sauna-d-39-olle-pastorie.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=11;hapos=11;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX11;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=8.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:57:16.213+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/landgoedlogies-pabema.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=12;hapos=12;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX12;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=9.1#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T16:58:30.855+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/bed-and-breakfast-batenborg-groningen.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDhIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=ae480390f911d9890c94e68a0bbdcc95;ucfs=1;aer=1;srpvid=9e88684953240081;srepoch=1504795795;room1=A%2CA;hpos=14;hapos=14;dest_type=city;dest_id=-2140148;srfid=4a5b8ef4d4d3d486d2e310cd8b28ff834b2371bcX14;from=searchresults;highlight_room=;spdest=ci/-2140148;spdist=9.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:00:11.634+02:00",
+		"@version": 1,
+		"message": "Completed crawling of the Landing PAge 07/09/2017 17:00:11",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:00:11.635+02:00",
+		"@version": 1,
+		"message": "The crawling of the booking Rental has started at :07/09/2017 15:09:35",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:00:13.030+02:00",
+		"@version": 1,
+		"message": " Total pages to be  crawled !!8",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:00:13.030+02:00",
+		"@version": 1,
+		"message": "Started crawling of the Child Pages07/09/2017 17:00:13",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:00:15.608+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/de-groene-pleisterplaats.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=b90837b20ec0f3fc4e588c86c100d0fb;ucfs=1;srpvid=bb7b697e9b2a0035;srepoch=1504796413;room1=A%2CA;hpos=1;hapos=1;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX1;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:01:17.480+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/gastenverblijf-huize-nijhof.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=b90837b20ec0f3fc4e588c86c100d0fb;ucfs=1;srpvid=bb7b697e9b2a0035;srepoch=1504796413;room1=A%2CA;hpos=4;hapos=4;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX4;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:01:50.962+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-home-de-kroondieker.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=b90837b20ec0f3fc4e588c86c100d0fb;ucfs=1;srpvid=bb7b697e9b2a0035;srepoch=1504796413;room1=A%2CA;hpos=5;hapos=5;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX5;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:02:55.672+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/holiday-home-de-onthaasting.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=b90837b20ec0f3fc4e588c86c100d0fb;ucfs=1;srpvid=bb7b697e9b2a0035;srepoch=1504796413;room1=A%2CA;hpos=8;hapos=8;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX8;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:02:57.896+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/de-grenswachter-1xl.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=b90837b20ec0f3fc4e588c86c100d0fb;ucfs=1;srpvid=bb7b697e9b2a0035;srepoch=1504796413;room1=A%2CA;hpos=10;hapos=10;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX10;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:03:53.709+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/de-grenswachter-1-1a.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=b90837b20ec0f3fc4e588c86c100d0fb;ucfs=1;srpvid=bb7b697e9b2a0035;srepoch=1504796413;room1=A%2CA;hpos=11;hapos=11;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX11;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:06:08.793+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/drenthelschoppe.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=b90837b20ec0f3fc4e588c86c100d0fb;ucfs=1;srpvid=bb7b697e9b2a0035;srepoch=1504796413;room1=A%2CA;hpos=13;hapos=13;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX13;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:07:51.159+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/accommodatie-kom-in-je-bedstee.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=b90837b20ec0f3fc4e588c86c100d0fb;ucfs=1;srpvid=bb7b697e9b2a0035;srepoch=1504796413;room1=A%2CA;hpos=15;hapos=15;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX15;from=searchresults;highlight_room=#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:09:01.474+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/frerikshof.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c65d6895693f8ef4d152972348d2b3ab;ucfs=1;aer=1;srpvid=89d96a633cdb0435;srepoch=1504796871;room1=A%2CA;hpos=3;hapos=18;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX18;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=10.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:09:36.311+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/nieuw-beusink.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c65d6895693f8ef4d152972348d2b3ab;ucfs=1;aer=1;srpvid=89d96a633cdb0435;srepoch=1504796871;room1=A%2CA;hpos=4;hapos=19;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX19;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=11.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:11:08.383+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/restaurant-reijrink.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c65d6895693f8ef4d152972348d2b3ab;ucfs=1;aer=1;srpvid=89d96a633cdb0435;srepoch=1504796871;room1=A%2CA;hpos=6;hapos=21;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX21;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=9.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:11:47.071+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/cafa-c-restaurant-de-ploeg.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c65d6895693f8ef4d152972348d2b3ab;ucfs=1;aer=1;srpvid=89d96a633cdb0435;srepoch=1504796871;room1=A%2CA;hpos=7;hapos=22;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX22;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=8.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:12:17.548+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/h-c-r-bulten.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c65d6895693f8ef4d152972348d2b3ab;ucfs=1;aer=1;srpvid=89d96a633cdb0435;srepoch=1504796871;room1=A%2CA;hpos=8;hapos=23;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX23;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=10.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:14:01.241+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/hamstadmun.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c65d6895693f8ef4d152972348d2b3ab;ucfs=1;aer=1;srpvid=89d96a633cdb0435;srepoch=1504796871;room1=A%2CA;hpos=10;hapos=25;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX25;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=10.7#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:16:06.531+02:00",
+		"@version": 1,
+		"message": "Could not complete /user/hadoop/imagesNew/booking/booking_booking_meddo/70283989.jpg retrying...",
+		"logger_name": "org.apache.hadoop.hdfs.DFSClient",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "INFO",
+		"level_value": 20000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:17:24.679+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/olde-beusink.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=c65d6895693f8ef4d152972348d2b3ab;ucfs=1;aer=1;srpvid=89d96a633cdb0435;srepoch=1504796872;room1=A%2CA;hpos=14;hapos=29;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX29;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=11.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:17:53.034+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/vakantiepark-de-twee-bruggen-winterswijk.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=3968a0549d73c664b246aef360c95831;ucfs=1;aer=1;srpvid=61246b83a9a400b1;srepoch=1504797446;room1=A%2CA;hpos=2;hapos=32;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX32;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=5.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:20:16.984+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/havezate-marveld.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=3968a0549d73c664b246aef360c95831;ucfs=1;aer=1;srpvid=61246b83a9a400b1;srepoch=1504797446;room1=A%2CA;hpos=5;hapos=35;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX35;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=12.3#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:21:49.761+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/quot-ni-jland-quot.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=3968a0549d73c664b246aef360c95831;ucfs=1;aer=1;srpvid=61246b83a9a400b1;srepoch=1504797446;room1=A%2CA;hpos=7;hapos=37;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX37;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=8.8#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:21:50.943+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/klein-ni-39-jenhoes.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=3968a0549d73c664b246aef360c95831;ucfs=1;aer=1;srpvid=61246b83a9a400b1;srepoch=1504797446;room1=A%2CA;hpos=8;hapos=38;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX38;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=11.5#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:23:02.695+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/recreatiepark-het-winkel.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=3968a0549d73c664b246aef360c95831;ucfs=1;aer=1;srpvid=61246b83a9a400b1;srepoch=1504797446;room1=A%2CA;hpos=11;hapos=41;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX41;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=11.0#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:24:36.902+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/het-geurkinkhuis.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=3968a0549d73c664b246aef360c95831;ucfs=1;aer=1;srpvid=61246b83a9a400b1;srepoch=1504797446;room1=A%2CA;hpos=14;hapos=44;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX44;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=6.4#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	},
+	{
+		"@timestamp": "2017-09-07T17:27:43.091+02:00",
+		"@version": 1,
+		"message": "Error Code : 009 : Crawling : Problem while Reading Co-ordiantes from page:http://www.booking.com/hotel/nl/nieuw-beusink.nl.html?label=gen173rf-1FCAQoggJCDWNpdHlfLTIxNDAxNDlIHFgDaKkBiAEBmAEcwgEDeDExyAEM2AEB6AEB-AEDkgIBeagCAw;sid=8da45ec084c9fa85a50b5f642a2d63ed;ucfs=1;aer=1;srpvid=36286c81a0e903bb;srepoch=1504797954;room1=A%2CA;hpos=5;hapos=50;dest_type=city;dest_id=-2140149;srfid=e9e94da8115afcf3461389ce23a7d7d737ccf4bbX50;from=searchresults;highlight_room=;spdest=ci/-2140149;spdist=11.2#hotelTmpl1",
+		"logger_name": "com.loxodon.eu.acquisition.service.BookingService",
+		"thread_name": "SimpleAsyncTaskExecutor-2",
+		"level": "ERROR",
+		"level_value": 40000,
+		"service": "acquisition-service-new"
+	}
+]
