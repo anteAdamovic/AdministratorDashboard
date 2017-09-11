@@ -35,6 +35,27 @@ transition-duration: 1s;
 
 /**/
 
+.table-service {
+    flex: 15% !important;
+}
+
+.table-version {
+    flex: 10% !important;
+}
+
+.table-level {
+    flex: 10% !important;
+}
+
+.table-message {
+    flex: 55% !important;
+    word-break: break-all !important;
+}
+
+.table-timestamp {
+    flex: 10% !important;
+}
+
 .spinner svg {
     width: 100px !important;
 }

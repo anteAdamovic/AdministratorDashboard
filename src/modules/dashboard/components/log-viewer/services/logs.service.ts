@@ -11,7 +11,7 @@ export class LogsService {
 
     public getLogs(model: PaginationModel): Observable<any> {
         console.log('Pagination data: ', model);
-        return this.http.get('./assets/logs.json')
+        return this.http.get('../assets/logs.json')
             .map((response: any) => JSON.parse(response._body))
             .map(
                 (logs: any[]) => {
@@ -27,7 +27,7 @@ export class LogsService {
                         (log: any) => {
                             const logTimestamp: Date = new Date(log["@timestamp"]);
                             if (logTimestamp > dateFrom && logTimestamp < dateTo) {
-                                if (log.level === level) {
+                                if (!level || log.level === level) {
                                     if (search) {
                                         if (
                                             log["@timestamp"].find(search) > 0 ||

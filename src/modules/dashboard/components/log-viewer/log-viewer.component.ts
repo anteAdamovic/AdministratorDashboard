@@ -16,6 +16,7 @@ export class LogViewerComponent {
     public resultLength: number = 0;
     public dataSource: LogsDataSourceModel;
     public paginationModel: PaginationModel;
+    public selectedMachine: any;
     public machines: any[] = [
         { name: 'PC-01', value: '01' },
         { name: 'PC-02', value: '02' },
@@ -23,17 +24,7 @@ export class LogViewerComponent {
         { name: 'PC-04', value: '04' }
     ];
 
-    constructor(private logsService: LogsService) {
-        this.paginationModel = new PaginationModel(
-            "INFO",
-            (new Date(1)).toISOString(),
-            (new Date()).toISOString(),
-            null,
-            10,
-            0
-        );
-        this.fetchLogsData();
-    }
+    constructor(private logsService: LogsService) { }
 
     public formatDate(date: string): string {
         const d = new Date(date);
@@ -48,6 +39,18 @@ export class LogViewerComponent {
         return d.toLocaleDateString() + ' ' + d.toLocaleTimeString() + '.' + miliseconds;
     }
 
+    public updateMachineName(event: any): void {
+        this.paginationModel = new PaginationModel(
+            event.value,
+            "",
+            (new Date(1)).toISOString(),
+            (new Date()).toISOString(),
+            null,
+            10,
+            0
+        );
+        this.fetchLogsData();
+    }
     public updatePage(page: any): void {
         this.paginationModel.limit = page.pageSize;
         this.paginationModel.page = page.pageIndex;
@@ -55,6 +58,8 @@ export class LogViewerComponent {
     }
 
     public showMeData(data: any): void {
+        console.log(data);
+        console.log(this.selectedMachine);
         alert(JSON.stringify(data));
     }
 

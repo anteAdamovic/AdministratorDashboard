@@ -16,7 +16,7 @@ export class DashboardComponent {
     }
 
     public isActive(page: string): boolean {
-        console.log('Is active ', page, this.router.url, this.router.url.endsWith(page));
+        // console.log('Is active ', page, this.router.url, this.router.url.endsWith(page));
         return this.router.url.endsWith(page);
     }
 }

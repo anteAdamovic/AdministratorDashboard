@@ -1,43 +1,46 @@
 <section class='log-viewer'>
     <md-card>
         Select machine:
-        <md-select placeholder="Select machine" [(ngModel)]="selectedMachine" name="food">
+        <md-select placeholder="Select machine" [(ngModel)]="selectedMachine" name="food" (change)="updateMachineName($event)">
             <md-option *ngFor="let machine of machines" [value]="machine.value">
                 {{ machine.name }}
             </md-option>
         </md-select>
+        <md-slider [max]="60" [min]="0" [step]="30"></md-slider>
+        <input mdInput>
     </md-card>
-    <md-card *ngIf="dataSource">
+    <md-card class='table-card' *ngIf="dataSource && selectedMachine">
         <md-table #table [dataSource]="dataSource">
-            <!-- Position Column -->
+            <!-- Service Column -->
             <ng-container mdColumnDef="service">
-                <md-header-cell *mdHeaderCellDef> Service </md-header-cell>
-                <md-cell *mdCellDef="let element"> {{element['service']}} </md-cell>
+                <md-header-cell class="table-service" *mdHeaderCellDef> Service </md-header-cell>
+                <md-cell class="table-service" *mdCellDef="let element"> {{element['service']}} </md-cell>
             </ng-container>
 
-            <!-- Name Column -->
+            <!-- Version Column -->
             <ng-container mdColumnDef="@version">
-                <md-header-cell style="text-align: center" *mdHeaderCellDef> Version </md-header-cell>
-                <md-cell style="text-align: center" *mdCellDef="let element"> {{element['@version']}} </md-cell>
+                <md-header-cell class="table-version" style="text-align: center" *mdHeaderCellDef> Version </md-header-cell>
+                <md-cell class="table-version" style="text-align: center" *mdCellDef="let element"> {{element['@version']}} </md-cell>
             </ng-container>
 
-            <!-- Weight Column -->
+            <!-- Level Column -->
             <ng-container mdColumnDef="level">
-                <md-header-cell style="text-align: center" *mdHeaderCellDef> Level </md-header-cell>
-                <md-cell style="text-align: center" *mdCellDef="let element"> {{element['level']}} </md-cell>
+                <md-header-cell class="table-level" style="text-align: center" *mdHeaderCellDef> Level </md-header-cell>
+                <md-cell class="table-level" style="text-align: center" *mdCellDef="let element"> {{element['level']}} </md-cell>
             </ng-container>
 
-            <!-- Color Column -->
+            <!-- Message Column -->
             <ng-container mdColumnDef="message">
-                <md-header-cell *mdHeaderCellDef> Message </md-header-cell>
-                <md-cell class='log-message' *mdCellDef="let element"> {{ element['message'].length >= 40 ? element['message'].substring(0, 40) + ' ...' : element['message'] }}
+                <md-header-cell class="table-message" *mdHeaderCellDef> Message </md-header-cell>
+                <md-cell class='table-message' *mdCellDef="let element"> {{ element['message'] }}
+                <!-- <md-cell class='log-message' *mdCellDef="let element"> {{ element['message'].length >= 100 ? element['message'].substring(0, 96) + ' ...' : element['message'] }} -->
                     </md-cell>
             </ng-container>
 
-            <!-- Color Column -->
+            <!-- Timestamp Column -->
             <ng-container mdColumnDef="@timestamp">
-                <md-header-cell style="text-align: right" *mdHeaderCellDef> Timestamp </md-header-cell>
-                <md-cell style="text-align: right" *mdCellDef="let element"> {{ formatDate(element['@timestamp']) }} </md-cell>
+                <md-header-cell class="table-timestamp" style="text-align: right" *mdHeaderCellDef> Timestamp </md-header-cell>
+                <md-cell class="table-timestamp" style="text-align: right" *mdCellDef="let element"> {{ formatDate(element['@timestamp']) }} </md-cell>
             </ng-container>
 
             <md-header-row *mdHeaderRowDef="displayedColumns"></md-header-row>
