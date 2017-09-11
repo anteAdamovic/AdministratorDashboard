@@ -6,8 +6,16 @@
                 {{ machine.name }}
             </md-option>
         </md-select>
-        <md-slider [max]="60" [min]="0" [step]="30"></md-slider>
-        <input mdInput>
+        <div class="filter-options" *ngIf="paginationModel">
+            <div class="search inline-block">
+                Search:
+                <input class="inline-block" style="width: inherit; border-bottom: 1px solid black" (change)="updateSearch()" mdInput [(ngModel)]="paginationModel.search">
+            </div>
+            <div class="level inline-block">
+                Level: {{ paginationModel?.level }} 
+                <md-slider class="slider" [max]="60" [min]="0" [step]="30" (input)="changeLevel($event)"></md-slider>
+            </div>
+        </div>
     </md-card>
     <md-card class='table-card' *ngIf="dataSource && selectedMachine">
         <md-table #table [dataSource]="dataSource">

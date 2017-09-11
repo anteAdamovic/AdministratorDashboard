@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs/Rx';
 
 import { LogsService } from './services/logs.service';
 import { PaginationModel } from './models/pagination.model';
@@ -39,10 +40,14 @@ export class LogViewerComponent {
         return d.toLocaleDateString() + ' ' + d.toLocaleTimeString() + '.' + miliseconds;
     }
 
+    public updateSearch(): void {
+        this.fetchLogsData().throttleTime(300);
+    }
+
     public updateMachineName(event: any): void {
         this.paginationModel = new PaginationModel(
             event.value,
-            "",
+            "ALL",
             (new Date(1)).toISOString(),
             (new Date()).toISOString(),
             null,
@@ -57,13 +62,32 @@ export class LogViewerComponent {
         this.fetchLogsData();
     }
 
+    public changeLevel(data: any): void {
+        switch(data.value) {
+            case 0: {
+                this.paginationModel.level = "ALL";
+                break;
+            }
+            case 30: {
+                this.paginationModel.level = "INFO"
+                break;
+            }
+            case 60: {
+                this.paginationModel.level = "ERROR"
+                break;
+            }
+        }
+    
+        this.fetchLogsData();
+    }
+
     public showMeData(data: any): void {
         console.log(data);
         console.log(this.selectedMachine);
         alert(JSON.stringify(data));
     }
 
-    private fetchLogsData(): void {
+    private fetchLogsData(): Observable<any> {
         this.logsService.getLogs(this.paginationModel).subscribe(
             (result: any) => {
                 console.log('Logs: ', result.logs);
@@ -71,5 +95,7 @@ export class LogViewerComponent {
                 this.dataSource = new LogsDataSourceModel(result.logs);
             }
         );
+
+        return Observable.of(true);
     }
 }

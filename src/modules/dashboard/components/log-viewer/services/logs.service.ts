@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
-import { Observable } from 'rxjs/rx';
+import { Observable } from 'rxjs/Rx';
 
 import { PaginationModel } from '../models/pagination.model';
 
@@ -27,17 +27,17 @@ export class LogsService {
                         (log: any) => {
                             const logTimestamp: Date = new Date(log["@timestamp"]);
                             if (logTimestamp > dateFrom && logTimestamp < dateTo) {
-                                if (!level || log.level === level) {
+                                if (level === 'ALL' || log.level === level) {
                                     if (search) {
                                         if (
-                                            log["@timestamp"].find(search) > 0 ||
-                                            log["@version"].find(search) > 0 ||
-                                            log["message"].find(search) > 0 ||
-                                            log["thread_name"].find(search) > 0 ||
-                                            log["logger_name"].find(search) > 0 ||
-                                            log["level"].find(search) > 0 ||
-                                            log["level_value"].find(search) > 0 ||
-                                            log["service"].find(search) > 0
+                                            log["@timestamp"].toString().toLowerCase().search(search) >= 0 ||
+                                            log["@version"].toString().toLowerCase().search(search) >= 0 ||
+                                            log["message"].toString().toLowerCase().search(search) >= 0 ||
+                                            log["thread_name"].toString().toLowerCase().search(search) >= 0 ||
+                                            log["logger_name"].toString().toLowerCase().search(search) >= 0 ||
+                                            log["level"].toString().toLowerCase().search(search) >= 0 ||
+                                            log["level_value"].toString().toLowerCase().search(search) >= 0 ||
+                                            log["service"].toString().toLowerCase().search(search) >= 0
                                         ) {
                                             filteredLogs.push(log);
                                         }
