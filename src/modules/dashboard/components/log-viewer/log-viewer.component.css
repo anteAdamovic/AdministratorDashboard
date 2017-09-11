@@ -36,3 +36,18 @@ md-table {
     padding-top: 10px;
     margin-bottom: -10px;
 }
+
+.date-pickers {
+    display: inline-block;
+    height: 44px;
+}
+
+.date-pickers md-form-field {
+    width: 150px;
+    border-bottom: 1px solid;
+}
+
+.date-pickers input {
+    margin-bottom: -5px;
+    height: 30px;
+}

@@ -3,7 +3,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpModule } from '@angular/http';
-import { MdIconModule, MdListModule, MdSelectModule, MdCardModule, MdTableModule, MdPaginatorModule, MdSliderModule, MdInputModule } from '@angular/material';
+import { MdIconModule, MdListModule, MdSelectModule, MdCardModule, MdTableModule, MdPaginatorModule, MdSliderModule, MdInputModule, MdNativeDateModule, MdDatepickerModule } from '@angular/material';
 
 import { DashboardComponent } from './dashboard.component';
 import { LogViewerComponent } from './components/log-viewer/log-viewer.component';
@@ -22,7 +22,9 @@ import { LogViewerComponent } from './components/log-viewer/log-viewer.component
         MdTableModule,
         MdPaginatorModule,
         MdSliderModule,
-        MdInputModule
+        MdInputModule,
+        MdNativeDateModule,
+        MdDatepickerModule
     ],
     declarations: [
         DashboardComponent,

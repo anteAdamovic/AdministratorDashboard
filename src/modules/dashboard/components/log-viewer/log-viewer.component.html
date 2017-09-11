@@ -7,12 +7,24 @@
             </md-option>
         </md-select>
         <div class="filter-options" *ngIf="paginationModel">
+            <div class="date-pickers">
+                <md-form-field>
+                    <input mdInput [mdDatepicker]="pickerFrom" placeholder="From">
+                    <md-datepicker-toggle mdSuffix [for]="pickerFrom"></md-datepicker-toggle>
+                    <md-datepicker #pickerFrom></md-datepicker>
+                </md-form-field>
+                <md-form-field>
+                    <input mdInput [mdDatepicker]="pickerTo" placeholder="To">
+                    <md-datepicker-toggle mdSuffix [for]="pickerTo"></md-datepicker-toggle>
+                    <md-datepicker #pickerTo></md-datepicker>
+                </md-form-field>
+            </div>
             <div class="search inline-block">
                 Search:
                 <input class="inline-block" style="width: inherit; border-bottom: 1px solid black" (change)="updateSearch()" mdInput [(ngModel)]="paginationModel.search">
             </div>
             <div class="level inline-block">
-                Level: {{ paginationModel?.level }} 
+                Level: {{ paginationModel?.level }}
                 <md-slider class="slider" [max]="60" [min]="0" [step]="30" (input)="changeLevel($event)"></md-slider>
             </div>
         </div>
@@ -41,8 +53,8 @@
             <ng-container mdColumnDef="message">
                 <md-header-cell class="table-message" *mdHeaderCellDef> Message </md-header-cell>
                 <md-cell class='table-message' *mdCellDef="let element"> {{ element['message'] }}
-                <!-- <md-cell class='log-message' *mdCellDef="let element"> {{ element['message'].length >= 100 ? element['message'].substring(0, 96) + ' ...' : element['message'] }} -->
-                    </md-cell>
+                    <!-- <md-cell class='log-message' *mdCellDef="let element"> {{ element['message'].length >= 100 ? element['message'].substring(0, 96) + ' ...' : element['message'] }} -->
+                </md-cell>
             </ng-container>
 
             <!-- Timestamp Column -->
