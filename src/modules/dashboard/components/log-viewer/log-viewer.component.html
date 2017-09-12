@@ -1,13 +1,13 @@
 <section class='log-viewer'>
-    <md-card>
+    <md-card style="padding-bottom: 5px;">
         Select machine:
-        <md-select placeholder="Select machine" [(ngModel)]="selectedMachine" name="food" (change)="updateMachineName($event)">
+        <md-select style="margin-bottom: 20px;" placeholder="Select machine" [(ngModel)]="selectedMachine" name="food" (change)="updateMachineName($event)">
             <md-option *ngFor="let machine of machines" [value]="machine.value">
                 {{ machine.name }}
             </md-option>
         </md-select>
         <div class="filter-options" *ngIf="paginationModel">
-            <div class="date-pickers">
+            <div class="date-pickers" style="margin-right: 20px;">
                 <md-form-field>
                     <input mdInput [mdDatepicker]="pickerFrom" placeholder="From">
                     <md-datepicker-toggle mdSuffix [for]="pickerFrom"></md-datepicker-toggle>
@@ -19,13 +19,15 @@
                     <md-datepicker #pickerTo></md-datepicker>
                 </md-form-field>
             </div>
-            <div class="search inline-block">
-                Search:
-                <input class="inline-block" style="width: inherit; border-bottom: 1px solid black" (change)="updateSearch()" mdInput [(ngModel)]="paginationModel.search">
-            </div>
-            <div class="level inline-block">
-                Level: {{ paginationModel?.level }}
-                <md-slider class="slider" [max]="60" [min]="0" [step]="30" (input)="changeLevel($event)"></md-slider>
+            <div class="wrapper inline-block">
+                <div class="search block">
+                    Search:
+                    <input class="inline-block" style="width: inherit; border-bottom: 1px solid black" (change)="updateSearch()" mdInput [(ngModel)]="paginationModel.search">
+                </div>
+                <div class="level block" style="margin-top: 15px;">
+                    Level: {{ paginationModel?.level }}
+                    <md-slider class="slider" [max]="60" [min]="0" [step]="30" (input)="changeLevel($event)"></md-slider>
+                </div>
             </div>
         </div>
     </md-card>

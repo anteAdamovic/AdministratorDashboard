@@ -37,7 +37,7 @@ export class LogViewerComponent {
             miliseconds = "0" + miliseconds;
         }
 
-        return d.toLocaleDateString() + ' ' + d.toLocaleTimeString() + '.' + miliseconds;
+        return d.toLocaleDateString() + ' ' + d.toLocaleTimeString("en-GB", { hour12: false }) + '.' + miliseconds;
     }
 
     public updateSearch(): void {
