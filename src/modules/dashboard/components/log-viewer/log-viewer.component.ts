@@ -81,12 +81,6 @@ export class LogViewerComponent {
         this.fetchLogsData();
     }
 
-    public showMeData(data: any): void {
-        console.log(data);
-        console.log(this.selectedMachine);
-        alert(JSON.stringify(data));
-    }
-
     private fetchLogsData(): Observable<any> {
         this.logsService.getLogs(this.paginationModel).subscribe(
             (result: any) => {

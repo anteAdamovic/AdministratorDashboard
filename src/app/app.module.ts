@@ -3,6 +3,7 @@ import { RouterModule, Routes} from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
 
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent, children: [
     { path: '', pathMatch: 'full', redirectTo: 'log-viewer' },
     { path: 'log-viewer', component: LogViewerComponent }
-  ]}
+  ]},
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
@@ -42,7 +44,8 @@ const routes: Routes = [
     DashboardModule
   ],
   providers: [
-    UserContextService
+    UserContextService,
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
